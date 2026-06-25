@@ -1,0 +1,17 @@
+{
+  "name": "Downtown Plaza",
+  "description": "Downtown Plaza, Oklahoma City , Oklahoma. 1117 N Broadway Avenue. Now online",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
