@@ -1,12 +1,10 @@
 import '../styles/globals.css'
 import { CartProvider } from '../lib/CartContext'
-import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }) {
   return (
     <CartProvider>
       <Component {...pageProps} />
-      <Analytics />
     </CartProvider>
   )
 }
